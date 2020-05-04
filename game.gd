@@ -12,20 +12,19 @@ var player: Sprite
 var camera: Camera2D
 
 func _ready():
-	var floor_container = Node2D.new()
-	add_child(floor_container, true)
+	var world: Node2D = get_node("GameWorld")
 	
 	for x in range(grid_size.x):
 		for y in range(grid_size.y):
-			floor_container.add_child(create_floor_tile(x, y), true)
+			world.add_child(create_floor_tile(x, y), true)
 	
 	player = Sprite.new()
 	player.texture = player_texture
-	add_child(player)
+	world.add_child(player)
 
 	camera = Camera2D.new()
 	camera.current = true
-	add_child(camera)
+	world.add_child(camera)
 
 func _process(_delta):
 	player.position = player_grid_position * grid_scale
