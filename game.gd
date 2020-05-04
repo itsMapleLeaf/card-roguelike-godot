@@ -1,7 +1,7 @@
 extends Node2D
 
-var floor_tile_texture = load("res://assets/dungeon2/tiles.png")
-var player_texture = load("res://assets/adventurer/adventurer-idle-00.png")
+var floor_tile_texture = load("res://assets/tiles.png")
+var player_texture = load("res://assets/player/adventurer-idle-00.png")
 
 const grid_size = Vector2(7, 5)
 const grid_scale = 32

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ghost.png-9b9e9432201d3a4efce69e8c2b8b00da.stex"
+path="res://.import/card.png-c12f80167372a8ea75cae1cb137b9cb2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/monsters/ghost.png"
-dest_files=[ "res://.import/ghost.png-9b9e9432201d3a4efce69e8c2b8b00da.stex" ]
+source_file="res://assets/card.png"
+dest_files=[ "res://.import/card.png-c12f80167372a8ea75cae1cb137b9cb2.stex" ]
 
 [params]
 

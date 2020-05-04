@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ghost.png-9b9e9432201d3a4efce69e8c2b8b00da.stex"
+path="res://.import/adventurer-idle-01.png-80ecc5604f025ba020f383bba87b9225.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/monsters/ghost.png"
-dest_files=[ "res://.import/ghost.png-9b9e9432201d3a4efce69e8c2b8b00da.stex" ]
+source_file="res://assets/player/adventurer-idle-01.png"
+dest_files=[ "res://.import/adventurer-idle-01.png-80ecc5604f025ba020f383bba87b9225.stex" ]
 
 [params]
 
